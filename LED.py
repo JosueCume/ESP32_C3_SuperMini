@@ -3,7 +3,7 @@ from machine import Pin
 import time
 
 def main():
-    led = Pin(2, Pin.OUT)
+    led = Pin(8, Pin.OUT)
     
     # Patrón personalizable desde GitHub
     print("Ejecutando código desde GitHub - LED.py")
