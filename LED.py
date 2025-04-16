@@ -12,17 +12,17 @@ def main():
         # Secuencia rápida (3 parpadeos rápidos)
         for _ in range(3):
             led.on()
-            time.sleep(0.1)
+            time.sleep(0.5)
             led.off()
-            time.sleep(0.1)
+            time.sleep(0.5)
         
         # Pausa larga
-        time.sleep(1)
+        time.sleep(2)
         
         # Secuencia lenta
         led.on()
-        time.sleep(0.5)
+        time.sleep(1)
         led.off()
-        time.sleep(0.5)
+        time.sleep(1)
 
 # El código principal ejecutará esta función
