@@ -7,8 +7,8 @@ led = Pin(8, Pin.OUT)
 while True:
     # Encender el LED
     led.on()
-    time.sleep(0.1)  # Esperar 1 segundo
+    time.sleep(1)  # Esperar 1 segundo
     
     # Apagar el LED
     led.off()
-    time.sleep(0.1)  # Esperar 1 segundo
+    time.sleep(1)  # Esperar 1 segundo
